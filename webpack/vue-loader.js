@@ -1,4 +1,4 @@
-const { VueLoaderPlugin } = require('webpack/vue-loader');
+const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = function (paths) {
   return {

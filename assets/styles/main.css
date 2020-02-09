@@ -1,67 +1,38 @@
-.aboutUs {
+body {
+  font-family: "futura-demic-reg", Arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  padding: 11px 0;
+  background: white;
+}
+
+.logo {
+  text-align: center;
+}
+
+.language li {
+  list-style-type: none;
+}
+
+.language {
+  text-align: right;
+}
+.language__item {
+  display: inline-block;
+}
+
+body {
+  font-family: "futura-demic-reg", Arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  padding: 11px 0;
+  background: white;
+}
+
+.navigation {
   display: flex;
-  width: 100%;
-  background: #F6F6F8;
-}
-.aboutUs__wrap {
-  width: 75%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
-}
-
-.topPart {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 44px;
-  padding-top: 50px;
-  border-bottom: 1px solid #E0E0E0;
-}
-
-.counter {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 44px;
-}
-.counter p {
-  font-size: 16px;
-  color: #999999;
-}
-.counter__number {
-  font-size: 36px;
-  color: #000000;
-}
-
-.counter__number img {
-  padding-right: 13px;
-  width: 33px;
-  height: 38px;
-}
-
-.counter__number-image {
-  display: flex;
-}
-
-.standards {
-  padding-right: 26px;
-}
-.standards h2 {
-  font-size: 36px;
-  line-height: 53px;
-  color: #323232;
-}
-.standards p {
-  font-size: 16px;
-  line-height: 25px;
-  color: #999999;
-}
-.standards a {
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  color: #4985FF;
 }
 
 /*# sourceMappingURL=main.css.map */

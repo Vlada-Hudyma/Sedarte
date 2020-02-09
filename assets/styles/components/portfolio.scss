@@ -1,0 +1,43 @@
+.portfolio {
+    &__photo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__more {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    &__more button {
+        padding: 6px 12px;
+        border: 1px solid #000000;
+        color: inherit;
+        background-color: transparent;
+        font-size: 12px;
+    }
+}
+
+.photo {
+    flex: 0 0 33%;
+}
+
+.allContent {
+    padding: 0 60px;
+    font-size: 14px;
+    letter-spacing: .1em;
+    & p {
+        text-indent: 40px;
+        line-height: 1.6em;
+        font-family: "futura-demic-reg", Arial, sans-serif;
+        
+        font-style: normal;
+        letter-spacing: .1em;
+
+    }
+    & h6 {
+        border-bottom: 1px solid #ccc;
+        padding-top: 40px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+}

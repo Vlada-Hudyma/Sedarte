@@ -1,0 +1,34 @@
+.content {
+    width: 100%;
+    max-width: 1180px !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nextPage {
+    display: flex;
+    font-size: 11px;
+    &__prev {
+        color: #6D6E70;
+    }
+    &__prev:hover {
+        color: #6D6E70;
+        text-decoration: none;
+    }
+    &__portfolio {
+        color: black;
+    }
+    &__portfolio:hover {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.titleContent {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
