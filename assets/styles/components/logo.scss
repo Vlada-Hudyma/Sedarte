@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-
 }
 
 .language li {
@@ -24,6 +23,13 @@
         color: #333;
         text-decoration: none;
     }
+    & ul {
+        @media(max-width:576px) {
+            text-align: center;
+            padding-left: 0;
+            padding-top: 10px;
+            }
+    }
 }
 
 .social {
@@ -31,6 +37,9 @@
         list-style-type: none;
         text-align: left;
         padding: 0;
+        @media(max-width:576px) {
+            text-align: center;
+            }
     }
     & li {
         display: inline-block;

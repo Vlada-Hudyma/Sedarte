@@ -1,0 +1,27 @@
+.navigation {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.navigation ul {
+  width: 100%;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-left: 0px;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+}
+.navigation li {
+  padding: 0 20px;
+  display: inline-block;
+}
+.navigation li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.navigation span {
+  color: #000;
+}
+
+/*# sourceMappingURL=menu.css.map */

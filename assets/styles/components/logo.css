@@ -1,0 +1,83 @@
+.menuLogo {
+  text-align: center;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.language li {
+  list-style-type: none;
+}
+
+.language {
+  text-align: right;
+}
+.language__item li {
+  display: inline-block;
+}
+.language__item-ru {
+  font-weight: bold;
+}
+.language__item-ua a {
+  color: #333;
+}
+.language__item-ua a:hover {
+  color: #333;
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  .language ul {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}
+
+.social ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+@media (max-width: 576px) {
+  .social ul {
+    text-align: center;
+  }
+}
+.social li {
+  display: inline-block;
+}
+.social a {
+  color: #6D6E70;
+}
+.social i {
+  font-size: 1.1rem;
+  padding: 0 5px;
+}
+
+.social a:hover {
+  color: #6D6E70;
+}
+
+header {
+  padding-top: 28px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.homePage a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.homePage span {
+  color: #000;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=logo.css.map */
