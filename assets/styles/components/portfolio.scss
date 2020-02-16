@@ -2,10 +2,11 @@
     &__photo {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         @media(max-width:768px) {
             flex-wrap: wrap;
             justify-content: center;
-            width: 76%;
+            width: 100%;
             margin: 0 auto;
             }
     }
@@ -24,13 +25,17 @@
 }
 
 .photo {
-    flex: 0 0 33%;
+    flex: 0 0 31%;
+    margin: 10px;
     @media(max-width:576px) {
         flex: 0 0 100%;
         max-width: 100%;
         }
-    @media(max-width:768px) {
-        flex: 0 0 50%;
+    @media(max-width:768px) and (min-width:577px){
+        /*flex: 0 0 41%;
+        max-width: 41%;
+        margin: 10px;*/
+        flex: 0 0 31%;
         max-width: 100%;
         }
 }
@@ -64,7 +69,7 @@
 
 .image {
     height: 500px;
-    width: 95%;
+    width: 100%;
     position:relative;
     @media(max-width:576px) {
         height: 370px;
@@ -73,17 +78,43 @@
         }
 }
 
+.photo:hover .background{
+    opacity: 1;
+    transition: opacity .7s;
+    display: block;
+}
+.image:hover {
+    opacity: 0.3;
+    transition: opacity .7s ease-out;
+}
+
+.background:hover {
+    transition: opacity .7s ease-out;
+}
+
 .background {
-    left:0;
-    bottom:0;
-    right:0;
-    background:rgba(255,255,255, 0.7);
+    display: none;
+    position: absolute;
+    top: 89px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+
+/*.year {
+    display: none;
     padding:20px;
     position: absolute;
-    display: none;
     transition: all .25s;
 }
 
-.image:hover .background {
-    display:block;
+.year:hover {
+    display: block;
 }
+.background:hover {
+    display: block;
+    opacity: 0.5;
+}*/
+
+
+  
