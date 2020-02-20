@@ -97,6 +97,7 @@
     "jquery": "latest",
     "jquery-mousewheel": "^3.1.13",
     "luxy.js": "^0.1.0",
+    "parallax-js": "^3.1.0",
     "popper.js": "latest",
     "qs": "^6.7.0",
     "scrollmonitor": "^1.2.4",
