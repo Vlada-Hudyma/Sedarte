@@ -18,6 +18,9 @@
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 151px;
   }
   
   button {
@@ -46,6 +49,7 @@
     left: 0;
     height: 0;
     width: 0;
+    top:0;
     background-color: #c7c4c5;
   }
   
@@ -54,7 +58,8 @@
     position: absolute;
     right: 0;
     height: 0;
-    width: 0px;
+    width: 0;
+    top: 0;
     background-color: #c7c4c5;
   }
   
@@ -62,7 +67,7 @@
     content: "";
     bottom:0;
     right: 0;
-    width: 0px;
+    width: 0;
     height:0;
     background-color: #c7c4c5;
   }
@@ -134,9 +139,15 @@
 }
 
 .image {
-    height: 450px;
+    min-height: 450px;
     width: 100%;
     position:relative;
+
+    & img {
+      min-height: 450px;
+    width: 100%;
+    position:relative;
+    }
     @media(max-width:576px) {
         height: 370px;
         margin: 0;
@@ -190,3 +201,4 @@
   position: relative;
   display: block;
 }
+
