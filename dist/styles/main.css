@@ -232,6 +232,15 @@ header {
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 151px;
 }
 
 button {
@@ -262,6 +271,7 @@ button {
   left: 0;
   height: 0;
   width: 0;
+  top: 0;
   background-color: #c7c4c5;
 }
 
@@ -270,7 +280,8 @@ button {
   position: absolute;
   right: 0;
   height: 0;
-  width: 0px;
+  width: 0;
+  top: 0;
   background-color: #c7c4c5;
 }
 
@@ -278,7 +289,7 @@ button {
   content: "";
   bottom: 0;
   right: 0;
-  width: 0px;
+  width: 0;
   height: 0;
   background-color: #c7c4c5;
 }
@@ -371,7 +382,13 @@ button {
 }
 
 .image {
-  height: 450px;
+  min-height: 450px;
+  width: 100%;
+  position: relative;
+}
+
+.image img {
+  min-height: 450px;
   width: 100%;
   position: relative;
 }
