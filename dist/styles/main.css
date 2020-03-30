@@ -240,7 +240,7 @@ header {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 151px;
+  width: 171px;
 }
 
 button {
@@ -251,7 +251,7 @@ button {
   font-size: 11px !important;
   font-style: normal;
   letter-spacing: .1em;
-  padding: 7px 14px;
+  padding: 7px 24px;
 }
 
 .buttonBox button:focus {
